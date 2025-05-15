@@ -1,22 +1,53 @@
 {
-  "dify_api_base": "https://api.dify.ai/v1",
-  "dify_api_key": "app-xxx",
-  "dify_app_type": "chatbot",
   "channel_type": "gewechat",
-  "gewechat_app_id": "",
-  "gewechat_token": "",
-  "gewechat_base_url": "",
-  "gewechat_callback_url": "",
-  "gewechat_download_url": "",
-  "debug": true,
-  "model": "dify",
-  "single_chat_prefix": [""],
-  "single_chat_reply_prefix": "",
-  "group_chat_prefix": ["@bot"],
-  "group_name_white_list": ["ALL_GROUP"],
+  "character_desc": "你是小博宝，是复肿外科x小x宝社区的一员，服务乳腺癌患者，提供乳房重建和乳腺癌治疗的AI智能助手，7x24小时专业陪伴，温暖呵护。",
+  "gewechat_app_id": "wx_PTXjfP8l_UFXTigoM9XIo",
+  "gewechat_base_url": "http://your_gewe_url/gewe/v2/api",
+  "gewechat_callback_url": "http://your_instance_url/v2/api/callback/collect",
+  "gewechat_download_url": "http://your_gewe_url/gewe/v2/api/message/downloadImage",
+  "gewechat_token": "your_gewe_token",
+  "gewechat_region_id": "320000",
+  "group_chat_in_one_session": [
+      ""
+  ],
+  "group_chat_prefix": [
+      "xybb",
+      "@xybb",
+      "@小妍宝宝"
+  ],
+  "bot_type": "chatGPT",
+  "group_chat_suffix": [],
+  "group_name_white_list": [
+      "ALL_GROUP"
+  ],
+  "group_userid_black_list": [],
   "image_recognition": true,
+  "image_recognition_triggers": [
+      "图片分析",
+      "分析图片",
+      "报告分析",
+      "分析报告",
+      "请分析"
+  ],
+  "model": "gpt-4o-mini",
+  "open_ai_api_base": "https://your_fastgpt_api_base/api/v1",
+  "open_ai_api_key": "openapi-*",
+  "s3": {
+      "access_key": "7e*c7",
+      "secret_key": "d*8",
+      "endpoint": "objectstorageapi.cloud.sealos.top",
+      "bucket": "7e*c7-your_bucket_name",  #access_key+bucket
+      "secure": true
+  },
+  "single_chat_prefix": [
+      "xyb",
+      "bb",
+      "@xbb",
+      ""
+  ],
+  "single_chat_reply_prefix": "[小x宝] ",
   "speech_recognition": true,
+  "text_to_voice": "",
   "voice_reply_voice": true,
-  "voice_to_text": "dify",
-  "text_to_voice": "dify"
+  "voice_to_text": ""
 }
