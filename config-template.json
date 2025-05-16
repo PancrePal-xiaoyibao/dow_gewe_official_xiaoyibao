@@ -1,7 +1,7 @@
 {
   "channel_type": "gewechat",
   "character_desc": "你是小博宝，是复肿外科x小x宝社区的一员，服务乳腺癌患者，提供乳房重建和乳腺癌治疗的AI智能助手，7x24小时专业陪伴，温暖呵护。",
-  "gewechat_app_id": "wx_PTXjfP8l_UFXTigoM9XIo",
+  "gewechat_app_id": "wx_PTXjfP*****igoM9XIo",
   "gewechat_base_url": "http://your_gewe_url/gewe/v2/api",
   "gewechat_callback_url": "http://your_instance_url/v2/api/callback/collect",
   "gewechat_download_url": "http://your_gewe_url/gewe/v2/api/message/downloadImage",
