@@ -26,6 +26,7 @@ RUN apt-get update \
     && pip install --no-cache-dir -r requirements-optional.txt -i https://pypi.tuna.tsinghua.edu.cn/simple \
     && pip install --no-cache -r plugins/jina_sum/requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple \
     && pip install --no-cache azure-cognitiveservices-speech -i https://pypi.tuna.tsinghua.edu.cn/simple \
+    && pip install --no-cache loguru -i https://pypi.tuna.tsinghua.edu.cn/simple \
     # 清理编译工具和缓存
     && apt-get remove -y gcc g++ make \
     && apt-get autoremove -y \

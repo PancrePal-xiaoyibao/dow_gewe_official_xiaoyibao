@@ -10,3 +10,4 @@ web.py-update
 linkai>=0.0.6.0
 cozepy==0.13
 minio>=7.1.0
+loguru>=0.6.0
