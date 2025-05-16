@@ -1,5 +1,7 @@
 这是基于Dify-on-wechat的一个优化版本，由小x宝社区开源提供
 
+感谢DOW作者，以及GEWE官方社区对于小X宝公益社区的支持和捐助。如需了解和购买GEWE服务，可以访问[gewe官网](https://geweapi.com/#/newHome),专业服务值得拥有。
+
 ## 主要功能更新：
 1. 适配了gewechat官方token和相应的api规范。
 2. 适配了fastgpt智能体，接入后实现对话/图像分析/插件功能
