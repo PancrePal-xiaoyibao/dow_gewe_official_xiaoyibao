@@ -51,6 +51,18 @@ services:
 
 4. docker-compose up -d 启动就可以
 
+# docker私有化镜像
+```bash
+
+docker login ccr.ccs.tencentyun.com --username=100015489703
+
+密码咨询小x宝社区，授权使用。
+
+docker pull ccr.ccs.tencentyun.com/xiaoyibao/dow-gewe-official-xyb:v3
+
+
+```
+
 # 数据隐私
 技术目的存储的图片等数据含有隐私信息，需要定期处理删除。后续需要增强自动化清理。
 
